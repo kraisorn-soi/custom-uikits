@@ -3,4 +3,12 @@ public struct TMNCustomUIKits {
 
     public init() {
     }
+
+    public func getText() -> String? {
+        return self.text
+    }
+
+    public func callMe() -> String? {
+        return "MEMEMEMEME"
+    }
 }
